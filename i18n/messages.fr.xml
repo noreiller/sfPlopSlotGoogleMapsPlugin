@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file original="global" source-language="fr_FR" datatype="plaintext" date="2004-12-28T18:10:19Z">
+    <body>
+
+      <trans-unit>
+        <source>Filter</source>
+        <target>Filtre</target>
+      </trans-unit>
+      <trans-unit>
+        <source>All</source>
+        <target>Tous</target>
+      </trans-unit>
+      <trans-unit>
+        <source>None</source>
+        <target>Aucun</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

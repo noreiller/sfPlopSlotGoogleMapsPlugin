@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file original="global" source-language="fr_FR" datatype="plaintext" date="2004-12-28T18:10:19Z">
+    <body>
+
+      <trans-unit>
+        <source>GoogleMaps</source>
+        <target>Carte GoogleMaps</target>
+      </trans-unit>
+      <trans-unit>
+        <source>GoogleMaps map</source>
+        <target>Carte GoogleMaps</target>
+      </trans-unit>
+      <trans-unit>
+        <source>GoogleMaps position</source>
+        <target>Position GoogleMaps</target>
+      </trans-unit>
+      <trans-unit>
+        <source>GoogleMaps filter</source>
+        <target>Filtre GoogleMaps</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

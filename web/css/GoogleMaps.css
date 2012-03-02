@@ -1,0 +1,83 @@
+/* Google Maps */
+.container .GoogleMaps .content .GoogleMaps_wrapper {
+  height: 500px;
+  position: relative;
+  width: 100%;
+}
+
+/** Google Maps / map **/
+.container .GoogleMaps .content .GoogleMaps_map {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.container .GoogleMaps .content .GoogleMaps_markers_control + .GoogleMaps_map {
+  width: 74.99%;
+}
+.container .GoogleMaps .content .GoogleMaps_markers_control:empty {
+  width: 0%;
+}
+.container .GoogleMaps .content .GoogleMaps_markers_control:empty + .GoogleMaps_map {
+  width: 100%;
+}
+
+/** Google Maps / filters **/
+.container .GoogleMaps .content .GoogleMaps_filters {
+  background-color: #fff;
+  border: 1px solid #000;
+  display: none;
+  font: 12px Arial, sans-serif;
+  position: absolute;
+  right: 35%;
+  top: 5px;
+  width: 80px;
+}
+.container .GoogleMaps .content .GoogleMaps_filters span {
+  background: url(http://maps.gstatic.com/intl/en_us/mapfiles/down-arrow.gif) no-repeat 98% center;
+  border: 1px solid;
+  border-color: #707070 #D0D0D0 #D0D0D0 #707070;
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  padding: 0 5px 1px;
+}
+.container .GoogleMaps .content .GoogleMaps_filters_control {
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eaeaea));
+  background: -moz-linear-gradient(top, #fff, #eaeaea);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#eaeaea);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#eaeaea)";
+  border-bottom: 1px solid #A9BBDF;
+  border-radius: 0 2px 2px 0;
+  border-right: 1px solid #A9BBDF;
+  border-top: 1px solid #A9BBDF;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.35);
+  -o-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.35);
+  font-size: 12px;
+  margin: 5px;
+  padding: 1px 5px 0;
+}
+
+/** Google Maps / list of markers **/
+.container .GoogleMaps .content .GoogleMaps_markers_control {
+  float: right;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 25%;
+}
+.container .GoogleMaps .content .GoogleMaps_markers_control ul {
+  list-style-position: outside;
+  list-style-type: disc;
+  padding: 0 0 0 2.5em;
+}
+.container .GoogleMaps .content .GoogleMaps_markers_control li {
+  cursor: pointer;
+  padding: 0.15em 0.5em;
+}
+.container .GoogleMaps .content .GoogleMaps_markers_control li:hover {
+  text-decoration: underline;
+}
